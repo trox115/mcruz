@@ -30,27 +30,27 @@ function Destaques() {
   return (
     <>
       <Titulo>
-        <h2 class="margin-100"> Áreas de Negócio</h2>
+        <h2 className="margin-100"> Áreas de Negócio</h2>
       </Titulo>
       <Container>
         <Row>
           <Col md="3">
             <Cartao>
-              <div class="card">
+              <div className="card">
                 <img
                   src="/alinhamento.jpeg"
-                  class="card-img-top"
+                  className="card-img-top"
                   alt="Reboque em Macedo de Cavaleiros"
                 />
-                <div class="card-body">
-                  <h5 class="card-title">Alinhamento de Pneus</h5>
-                  <p class="card-text">
+                <div className="card-body">
+                  <h5 className="card-title">Alinhamento de Pneus</h5>
+                  <p className="card-text">
                     Montagem, alinhamento e calibragem de pneus para todo o tipo
                     de veiculos, alinhe os seus pneus em macedo de cavaleiros.
                   </p>
                 </div>
-                <div class="card-footer">
-                  <a href="#" class="align-self-center btn btn-primary">
+                <div className="card-footer">
+                  <a href="#!" className="align-self-center btn btn-primary">
                     Saber Mais
                   </a>
                 </div>
@@ -59,21 +59,21 @@ function Destaques() {
           </Col>
           <Col md="3">
             <Cartao>
-              <div class="card">
+              <div className="card">
                 <img
                   src="/taxi.PNG"
-                  class="card-img-top"
+                  className="card-img-top"
                   alt="Reboque em Macedo de Cavaleiros"
                 />
-                <div class="card-body">
-                  <h5 class="card-title">Táxi 9 lugares</h5>
-                  <p class="card-text">
+                <div className="card-body">
+                  <h5 className="card-title">Táxi 9 lugares</h5>
+                  <p className="card-text">
                     Temos taxis de 9 lugares, para alugar. Dispomos também de
                     serviço de Táxi em Macedo de Cavaleiros. Saiba mais.
                   </p>
                 </div>
-                <div class="card-footer">
-                  <a href="#" class="align-self-center btn btn-primary">
+                <div className="card-footer">
+                  <a href="#!" className="align-self-center btn btn-primary">
                     Saber Mais
                   </a>
                 </div>
@@ -82,21 +82,21 @@ function Destaques() {
           </Col>
           <Col md="3">
             <Cartao>
-              <div class="card">
+              <div className="card">
                 <img
                   src="/reboque.jpg"
-                  class="card-img-top"
+                  className="card-img-top"
                   alt="Reboque em Macedo de Cavaleiros"
                 />
-                <div class="card-body">
-                  <h5 class="card-title">Reboque</h5>
-                  <p class="card-text">
+                <div className="card-body">
+                  <h5 className="card-title">Reboque</h5>
+                  <p className="card-text">
                     Serviços de Reboque e assistência em viagem no concelho de
                     Macedo de Cavaleiros e em todo o distrito de Bragança.
                   </p>
                 </div>
-                <div class="card-footer">
-                  <a href="#" class="align-self-center btn btn-primary">
+                <div className="card-footer">
+                  <a href="#!" className="align-self-center btn btn-primary">
                     Saber Mais
                   </a>
                 </div>
@@ -105,22 +105,22 @@ function Destaques() {
           </Col>
           <Col md="3">
             <Cartao>
-              <div class="card">
+              <div className="card">
                 <img
                   src="/pintura.jpg"
-                  class="card-img-top"
+                  className="card-img-top"
                   alt="Reboque em Macedo de Cavaleiros"
                 />
-                <div class="card-body">
-                  <h5 class="card-title">Pintura</h5>
-                  <p class="card-text">
+                <div className="card-body">
+                  <h5 className="card-title">Pintura</h5>
+                  <p className="card-text">
                     Serviços de Pintura/Estufa e chaparia mestra situado em
                     Macedo de Cavaleiros. Trabalhe com profissionais, trabalhe
                     connosco.
                   </p>
                 </div>
-                <div class="card-footer">
-                  <a href="#" class="align-self-center btn btn-primary">
+                <div className="card-footer">
+                  <a href="#!" className="align-self-center btn btn-primary">
                     Saber Mais
                   </a>
                 </div>

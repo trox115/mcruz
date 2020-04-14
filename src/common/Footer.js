@@ -22,11 +22,11 @@ const Redes = styled.div`
 
 function FooterComp() {
   return (
-    <footer class="page-footer font-small stylish-color-dark pt-4">
-      <div class="container text-center text-md-left">
-        <div class="row">
-          <div class="col-md-4 mx-auto">
-            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">
+    <footer className="page-footer font-small stylish-color-dark pt-4">
+      <div className="container text-center text-md-left">
+        <div className="row">
+          <div className="col-md-4 mx-auto">
+            <h5 className="font-weight-bold text-uppercase mt-3 mb-4">
               Mcruz Fernandes
             </h5>
             <p>
@@ -37,12 +37,12 @@ function FooterComp() {
             </p>
           </div>
 
-          <hr class="clearfix w-100 d-md-none" />
+          <hr className="clearfix w-100 d-md-none" />
 
-          <div class="col-md-2 mx-auto">
-            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+          <div className="col-md-2 mx-auto">
+            <h5 className="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
 
-            <ul class="list-unstyled">
+            <ul className="list-unstyled">
               <li>
                 <a href="#!">Sobre Nós</a>
               </li>
@@ -55,10 +55,10 @@ function FooterComp() {
             </ul>
           </div>
 
-          <hr class="clearfix w-100 d-md-none" />
+          <hr className="clearfix w-100 d-md-none" />
 
-          <div class="col-md-3 mx-auto">
-            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">
+          <div className="col-md-3 mx-auto">
+            <h5 className="font-weight-bold text-uppercase mt-3 mb-4">
               Redes Socias
             </h5>
             <Redes>
@@ -70,8 +70,8 @@ function FooterComp() {
               </a>
             </Redes>
           </div>
-          <div class="col-md-3 mx-auto">
-            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">
+          <div className="col-md-3 mx-auto">
+            <h5 className="font-weight-bold text-uppercase mt-3 mb-4">
               Onde estamos
             </h5>
 
@@ -86,7 +86,7 @@ function FooterComp() {
             />
           </div>
 
-          <hr class="clearfix w-100 d-md-none" />
+          <hr className="clearfix w-100 d-md-none" />
         </div>
       </div>
 
@@ -94,9 +94,9 @@ function FooterComp() {
 
       <hr />
 
-      <div class="footer-copyright text-center py-3">
+      <div className="footer-copyright text-center py-3">
         © 2020 Copyright:
-        <a href="#"> CodeSpider</a>
+        <a href="#!"> CodeSpider</a>
       </div>
     </footer>
   );
