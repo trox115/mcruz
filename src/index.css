@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.stylish-color-dark{
+background-color:#343A40;
+color:white;
+}
+.stylish-color-dark a{
+  color:#B5CACA;
+}
+
+.navbar-brand{
+  width:150px;
+}
+.navbar-brand img{
+  width:140px;
+}
