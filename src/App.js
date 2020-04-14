@@ -14,7 +14,7 @@ function App() {
       <Router>
         <NavbarCommon />
         <Switch>
-          <Route exact path="/" component={HomePage} />
+          <Route exact path="/" component={Sobre} />
           <Route exact path="/sobre" component={Sobre} />
           <Route exact path="/servicos" component={Servicos} />
           <Route exact path="/galeria" component={Galeria} />
