@@ -43,10 +43,10 @@ function Destaques() {
                   alt="Reboque em Macedo de Cavaleiros"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Alinhamento de Pneus</h5>
+                  <h5 className="card-title">Calibragem de Pneus</h5>
                   <p className="card-text">
-                    Montagem, alinhamento e calibragem de pneus para todo o tipo
-                    de veiculos, alinhe os seus pneus em macedo de cavaleiros.
+                    Montagem e calibragem de pneus para todo o tipo de veiculos,
+                    alinhe os seus pneus em macedo de cavaleiros.
                   </p>
                 </div>
                 <div className="card-footer">
