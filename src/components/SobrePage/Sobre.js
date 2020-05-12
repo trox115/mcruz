@@ -61,15 +61,33 @@ function Sobre() {
         <Col md="12">
           <h2>Serviços Mcruz Fernandes </h2>
           <ul>
-            <li>Reboques</li>
-            <li>Mecânica Geral</li>
-            <li>Pneus</li>
-            <li>Chaparia Mestra</li>
-            <li>Pintura</li>
-            <li>Venda de Automóveis</li>
-            <li>Aluguer de Automóveis</li>
-            <li>Aluguer de clássicos para eventos e casamentos</li>
-            <li>Serviço de Taxi normal e 9 lugares</li>
+            <a href="/servicos/reboques">
+              <li> Reboques</li>
+            </a>
+            <a href="/servicos/mecanica">
+              <li>Mecânica Geral</li>
+            </a>
+            <a href="/servicos/pneus">
+              <li>Pneus</li>
+            </a>
+            <a href="/servicos/chaparia">
+              <li>Chaparia Mestra</li>
+            </a>
+            <a href="/servicos/pintura">
+              <li>Pintura</li>
+            </a>
+            <a href="/servicos/venda">
+              <li>Venda de Automóveis</li>
+            </a>
+            <a href="/servicos/aluguer">
+              <li>Aluguer de Automóveis</li>
+            </a>
+            <a href="/servicos/aluguer">
+              <li>Aluguer de clássicos para eventos e casamentos</li>
+            </a>
+            <a href="/servicos/taxi">
+              <li>Serviço de Taxi normal e 9 lugares</li>
+            </a>
           </ul>
         </Col>
       </Row>

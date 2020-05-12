@@ -19,6 +19,14 @@ function App() {
           <Route exact path="/servicos" component={Servicos} />
           <Route exact path="/galeria" component={Galeria} />
           <Route exact path="/contactos" component={Contacto} />
+          <Route exact path="/servicos/reboques" component={Contacto} />
+          <Route exact path="/servicos/mecanica" component={Contacto} />
+          <Route exact path="/servicos/pneus" component={Contacto} />
+          <Route exact path="/servicos/chaparia" component={Contacto} />
+          <Route exact path="/servicos/pintura" component={Contacto} />
+          <Route exact path="/servicos/venda" component={Contacto} />
+          <Route exact path="/servicos/aluguer" component={Contacto} />
+          <Route exact path="/servicos/taxi" component={Contacto} />
         </Switch>
         <Footer />
       </Router>
