@@ -33,7 +33,11 @@ function ultimateCell({ ...props }) {
             </p>
           </Col>
           <Col md="6">
-            <img src="ucce.jpg" className="img-fluid" />
+            <img
+              src="ucce.jpg"
+              className="img-fluid"
+              alt="Instalar Ultimate Cell em macedo de Cavaleiros e bragança"
+            />
           </Col>
         </Row>
       </Container>
