@@ -51,6 +51,23 @@ function Servicos({ ...props }) {
       description2:
         'Imprevistos acontecem, mas quando acontecerem saiba que fica em boas mãos. Contacte-nos',
     },
+    {
+      name: 'mecanica',
+      title: 'Serviço de Mecânica geral',
+      description:
+        'A solução eficaz e segura para que o seu automóvel esteja sempre em perfeito estado de funcionamento.Revisão e Mecânica Geral em Macedo de Cavaleiros',
+      description2:
+        'Revisão automóvel em Macedo de Cavaleiros desde o filtro de ar, suspensões, mudança de escovas do limpa-para-brisas, ar condicionado, líquido de travões ou pastilhas de travão, até uma mudança de óleo do motor, mudança de filtros ou mudança de travões.Contacte-nos',
+    },
+
+    {
+      name: 'pneus',
+      title: 'Serviço de Troca de Pneus',
+      description:
+        'Porque a segurança é o mais importante e na MCruz Fernandes sabemos disso, Temos um serviço de troca de pneus com rapidez e fiabilidade.',
+      description2:
+        'Embora, em certos casos, o pneu possa ser reparável, antes de qualquer reparação, um profissional deve realizar um exame minucioso. Só um profissional poderá confirmar que o pneu não apresenta danos internos. É necessário desmontar o pneu para conseguir avaliar em que condições se encontra.Contacte-nos',
+    },
   ];
 
   const i = search(slug, servicos);
