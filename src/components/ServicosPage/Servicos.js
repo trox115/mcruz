@@ -76,6 +76,14 @@ function Servicos({ ...props }) {
       description2:
         'No serviço de chaparia da Mcruz Fernandes, será sempre feita uma avaliação criteriosa das reparações de carroçaria requeridas.Contacte-nos em Macedo de Cavaleiros',
     },
+    {
+      name: 'pintura',
+      title: 'Serviço de Pintura',
+      description:
+        'O serviço de Pintura da MCruz Fernandes, tem ao seu dispor Profissionais Qualificados e equipamentos de modernos. Possuímos nas nossas instalações zonas de preparação e estufa de pintura. ',
+      description2:
+        'Somos especialistas na reparação de chapa, pintura, pintura em estufa, polimentos, reparação de mossas sem pintura e recuperação de faróis. Em macedo de Cavaleiros e toda a zona de Bragança. Contacte-nos',
+    },
   ];
 
   const i = search(slug, servicos);
