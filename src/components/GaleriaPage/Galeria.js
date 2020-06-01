@@ -84,69 +84,78 @@ function Galeria() {
       <Row>
         <Col md="12">
           <Filtros>
-            <a
+            <button
+              type="button"
               className="btn btn-outline-dark"
               value="todos"
               onClick={handleClick}
             >
               Todos
-            </a>
-            <a
+            </button>
+            <button
+              type="button"
               className="btn btn-outline-dark"
               value="reboques"
               onClick={handleClick}
             >
               Reboques
-            </a>
-            <a
+            </button>
+            <button
+              type="button"
               className="btn btn-outline-dark"
               value="mecanica"
               onClick={handleClick}
             >
               Mecanica
-            </a>
-            <a
+            </button>
+            <button
+              type="button"
               className="btn btn-outline-dark"
               value="aixam"
               onClick={handleClick}
             >
               Aixam
-            </a>
-            <a
+            </button>
+            <button
+              type="button"
               className="btn btn-outline-dark"
               value="chaparia"
               onClick={handleClick}
             >
               Chaparia
-            </a>
-            <a
+            </button>
+            <button
+              type="button"
               className="btn btn-outline-dark"
               value="pintura"
               onClick={handleClick}
             >
               Pintura
-            </a>
-            <a
+            </button>
+            <button
+              type="button"
               className="btn btn-outline-dark"
               value="taxi"
               onClick={handleClick}
             >
               Taxi
-            </a>
-            <a
+            </button>
+            <button
+              type="button"
               className="btn btn-outline-dark"
               value="aluguer"
               onClick={handleClick}
             >
               Aluguer
-            </a>
-            <a
+            </button>
+            <button
+              type="button"
               className="btn btn-outline-dark"
               value="powercell"
               onClick={handleClick}
             >
               PowerCell
-            </a>
+            </button>
           </Filtros>
           <SRLWrapper>
             {Object.values(state.imagens).map(value => (
