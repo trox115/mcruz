@@ -11,17 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.stylish-color-dark{
-background-color:#343A40;
-color:white;
+.stylish-color-dark {
+  background-color: #343a40;
+  color: white;
 }
-.stylish-color-dark a{
-  color:#B5CACA;
+.stylish-color-dark a {
+  color: #b5caca;
 }
 
-.navbar-brand{
-  width:150px;
+.navbar-brand {
+  width: 150px;
 }
-.navbar-brand img{
-  width:140px;
+.navbar-brand img {
+  width: 140px;
+}
+
+.gallery_product {
+  margin-bottom: 30px;
+  float: left;
+}
+
+.gallery_product img {
+  width: 100%;
+  cursor: pointer;
 }

@@ -51,7 +51,10 @@ function Destaques() {
                   </p>
                 </div>
                 <div className="card-footer">
-                  <a href="#!" className="align-self-center btn btn-primary">
+                  <a
+                    href="/servicos/mecanica"
+                    className="align-self-center btn btn-primary"
+                  >
                     Saber Mais
                   </a>
                 </div>
@@ -74,7 +77,10 @@ function Destaques() {
                   </p>
                 </div>
                 <div className="card-footer">
-                  <a href="#!" className="align-self-center btn btn-primary">
+                  <a
+                    href="/servicos/taxi"
+                    className="align-self-center btn btn-primary"
+                  >
                     Saber Mais
                   </a>
                 </div>
@@ -97,7 +103,10 @@ function Destaques() {
                   </p>
                 </div>
                 <div className="card-footer">
-                  <a href="#!" className="align-self-center btn btn-primary">
+                  <a
+                    href="/servicos/reboque"
+                    className="align-self-center btn btn-primary"
+                  >
                     Saber Mais
                   </a>
                 </div>
@@ -121,7 +130,10 @@ function Destaques() {
                   </p>
                 </div>
                 <div className="card-footer">
-                  <a href="#!" className="align-self-center btn btn-primary">
+                  <a
+                    href="/servicos/pintura"
+                    className="align-self-center btn btn-primary"
+                  >
                     Saber Mais
                   </a>
                 </div>
