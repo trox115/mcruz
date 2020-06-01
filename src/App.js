@@ -18,7 +18,7 @@ function App() {
           <Route exact path="/sobre" component={Sobre} />
           <Route exact path="/servicos/:slug" component={Servicos} />
           <Route exact path="/galeria" component={Galeria} />
-          <Route exact path="/contactos" component={Contacto} />
+          <Route exact path="/contacto" component={Contacto} />
           <Route exact path="/servicos/reboques" component={Contacto} />
           <Route exact path="/servicos/mecanica" component={Contacto} />
           <Route exact path="/servicos/pneus" component={Contacto} />
