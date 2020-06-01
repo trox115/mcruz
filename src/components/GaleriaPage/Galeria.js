@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import PortInicial from './PortInicial';
 import styled from 'styled-components';
 import { SRLWrapper } from 'simple-react-lightbox';
+import PortInicial from './PortInicial';
 
 const Filtros = styled.div`
   margin-top: 30px;

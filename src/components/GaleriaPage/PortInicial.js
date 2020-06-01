@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 function PortInicial(props) {
   const { nome, categoria } = props;
@@ -18,5 +19,8 @@ function PortInicial(props) {
     </>
   );
 }
-
+PortInicial.propTypes = {
+  nome: PropTypes.string.isRequired,
+  categoria: PropTypes.string.isRequired,
+};
 export default PortInicial;
