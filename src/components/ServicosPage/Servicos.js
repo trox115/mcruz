@@ -84,6 +84,13 @@ function Servicos({ ...props }) {
       description2:
         'Somos especialistas na reparação de chapa, pintura, pintura em estufa, polimentos, reparação de mossas sem pintura e recuperação de faróis. Em macedo de Cavaleiros e toda a zona de Bragança. Contacte-nos',
     },
+    {
+      name: 'venda',
+      title: 'Venda de Automóveis',
+      description: 'Na MCruz Fernandes, temos vários automóveis para venda.',
+      description2:
+        'Temos a melhor relação qualidade preço. Venda em Macedo de Cavaleiros e todo o distrito de Bragança.',
+    },
   ];
 
   const i = search(slug, servicos);
