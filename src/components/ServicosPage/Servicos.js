@@ -68,6 +68,14 @@ function Servicos({ ...props }) {
       description2:
         'Embora, em certos casos, o pneu possa ser reparável, antes de qualquer reparação, um profissional deve realizar um exame minucioso. Só um profissional poderá confirmar que o pneu não apresenta danos internos. É necessário desmontar o pneu para conseguir avaliar em que condições se encontra.Contacte-nos',
     },
+    {
+      name: 'chaparia',
+      title: 'Serviço de Chaparia Mestra',
+      description:
+        'A carroçaria do seu carro, clássico ou não será montada numa mestra com ferramentas específicas para o respectivo modelo, respeitando todas as medidas originais de fábrica.',
+      description2:
+        'No serviço de chaparia da Mcruz Fernandes, será sempre feita uma avaliação criteriosa das reparações de carroçaria requeridas.Contacte-nos em Macedo de Cavaleiros',
+    },
   ];
 
   const i = search(slug, servicos);
