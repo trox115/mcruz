@@ -51,6 +51,53 @@ function Servicos({ ...props }) {
       description2:
         'Imprevistos acontecem, mas quando acontecerem saiba que fica em boas mãos. Contacte-nos',
     },
+    {
+      name: 'mecanica',
+      title: 'Serviço de Mecânica geral',
+      description:
+        'A solução eficaz e segura para que o seu automóvel esteja sempre em perfeito estado de funcionamento.Revisão e Mecânica Geral em Macedo de Cavaleiros',
+      description2:
+        'Revisão automóvel em Macedo de Cavaleiros desde o filtro de ar, suspensões, mudança de escovas do limpa-para-brisas, ar condicionado, líquido de travões ou pastilhas de travão, até uma mudança de óleo do motor, mudança de filtros ou mudança de travões.Contacte-nos',
+    },
+
+    {
+      name: 'pneus',
+      title: 'Serviço de Troca de Pneus',
+      description:
+        'Porque a segurança é o mais importante e na MCruz Fernandes sabemos disso, Temos um serviço de troca de pneus com rapidez e fiabilidade.',
+      description2:
+        'Embora, em certos casos, o pneu possa ser reparável, antes de qualquer reparação, um profissional deve realizar um exame minucioso. Só um profissional poderá confirmar que o pneu não apresenta danos internos. É necessário desmontar o pneu para conseguir avaliar em que condições se encontra.Contacte-nos',
+    },
+    {
+      name: 'chaparia',
+      title: 'Serviço de Chaparia Mestra',
+      description:
+        'A carroçaria do seu carro, clássico ou não será montada numa mestra com ferramentas específicas para o respectivo modelo, respeitando todas as medidas originais de fábrica.',
+      description2:
+        'No serviço de chaparia da Mcruz Fernandes, será sempre feita uma avaliação criteriosa das reparações de carroçaria requeridas.Contacte-nos em Macedo de Cavaleiros',
+    },
+    {
+      name: 'pintura',
+      title: 'Serviço de Pintura',
+      description:
+        'O serviço de Pintura da MCruz Fernandes, tem ao seu dispor Profissionais Qualificados e equipamentos de modernos. Possuímos nas nossas instalações zonas de preparação e estufa de pintura. ',
+      description2:
+        'Somos especialistas na reparação de chapa, pintura, pintura em estufa, polimentos, reparação de mossas sem pintura e recuperação de faróis. Em macedo de Cavaleiros e toda a zona de Bragança. Contacte-nos',
+    },
+    {
+      name: 'venda',
+      title: 'Venda de Automóveis',
+      description: 'Na MCruz Fernandes, temos vários automóveis para venda.',
+      description2:
+        'Temos a melhor relação qualidade preço. Venda em Macedo de Cavaleiros e todo o distrito de Bragança.',
+    },
+    {
+      name: 'aluguer',
+      title: 'Aluguer de Automóveis',
+      description: 'Na MCruz Fernandes, temos vários automóveis para aluguer.',
+      description2:
+        'Temos a melhor relação qualidade preço. Desde aluguer de clássicos para casamentos até ao aluguer de automóveis para o seu dia a dia. Contacte-nos em Macedo de Cavaleiros',
+    },
   ];
 
   const i = search(slug, servicos);
@@ -63,6 +110,9 @@ function Servicos({ ...props }) {
             <p>{servicos[i].description}</p>
             <p>{servicos[i].description2}</p>
           </Text>
+          <a href="/contacto" className="btn btn-primary">
+            Contacte-nos
+          </a>
         </Col>
         <Col md="5">
           <Image>
