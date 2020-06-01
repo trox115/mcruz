@@ -8,7 +8,7 @@ const Margin = styled.div`
   margin: 30px 0 30px 0;
 `;
 
-function Aixam({ ...props }) {
+function Aixam() {
   return (
     <Margin>
       <Container>

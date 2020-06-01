@@ -8,7 +8,7 @@ const Margin = styled.div`
   margin: 30px 0 30px 0;
 `;
 
-function ServIndex({ ...props }) {
+function ServIndex() {
   return (
     <Margin>
       <Container>
