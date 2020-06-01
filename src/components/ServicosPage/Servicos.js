@@ -21,7 +21,9 @@ const Image = styled.div`
 `;
 
 function Servicos({ ...props }) {
-  const { slug } = props.match.params;
+  const { match } = props;
+  const { params } = match;
+  const { slug } = params;
 
   function search(nameKey, myArray) {
     for (let i = 0; i < myArray.length; i += 1) {
