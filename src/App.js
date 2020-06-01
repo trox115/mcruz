@@ -23,14 +23,6 @@ function App() {
             <Route exact path="/servicos/:slug" component={Servicos} />
             <Route exact path="/galeria" component={Galeria} />
             <Route exact path="/contacto" component={Contacto} />
-            <Route exact path="/servicos/reboques" component={Contacto} />
-            <Route exact path="/servicos/mecanica" component={Contacto} />
-            <Route exact path="/servicos/pneus" component={Contacto} />
-            <Route exact path="/servicos/chaparia" component={Contacto} />
-            <Route exact path="/servicos/pintura" component={Contacto} />
-            <Route exact path="/servicos/venda" component={Contacto} />
-            <Route exact path="/servicos/aluguer" component={Contacto} />
-            <Route exact path="/servicos/taxi" component={Contacto} />
             <Route exact path="/ultimate" component={ultimateCell} />
             <Route exact path="/aixam" component={Aixam} />
           </SimpleReactLightbox>

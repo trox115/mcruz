@@ -14,7 +14,9 @@ function NavbarCommon() {
         <Nav className="mr-auto">
           <Nav.Link href="/sobre">Sobre Nós</Nav.Link>
           <NavDropdown title="Serviços" id="collasible-nav-dropdown">
-            <NavDropdown.Item href="servicos/reboque">Reboque</NavDropdown.Item>
+            <NavDropdown.Item href="/servicos/reboque">
+              Reboque
+            </NavDropdown.Item>
             <NavDropdown.Item href="/servicos/mecanica">
               Mecânica
             </NavDropdown.Item>
@@ -29,8 +31,11 @@ function NavbarCommon() {
             <NavDropdown.Item href="/servicos/venda">
               Venda/Aluguer de automóveis
             </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.5">
-              Instalação de PowerCell
+            <NavDropdown.Item href="/ultimate">
+              Instalação de UltimateCell
+            </NavDropdown.Item>
+            <NavDropdown.Item href="/aixam">
+              Conduzir com 16 anos
             </NavDropdown.Item>
           </NavDropdown>
           <Nav.Link href="/galeria">Galeria</Nav.Link>
