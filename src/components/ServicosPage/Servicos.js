@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -20,14 +20,15 @@ const Image = styled.div`
 `;
 
 function Servicos({ ...props }) {
-  const slug = props.match.params.slug;
+  const { slug } = props.match.params;
 
   function search(nameKey, myArray) {
-    for (var i = 0; i < myArray.length; i++) {
+    for (let i = 0; i < myArray.length; i += 1) {
       if (myArray[i].name === nameKey) {
         return i;
       }
     }
+    return 0;
   }
 
   const servicos = [
@@ -63,8 +64,8 @@ function Servicos({ ...props }) {
         <Col md="5">
           <Image>
             <img
-              src={'/' + servicos[i].name + '.jpg'}
-              alt={servicos[i].title + ' em macedo de Cavaleiros'}
+              src={`/${servicos[i].name}.jpg`}
+              alt={`${servicos[i].title} em macedo de Cavaleiros`}
             />
           </Image>
         </Col>
