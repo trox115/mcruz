@@ -82,9 +82,6 @@ function Sobre() {
             <a href="/servicos/aluguer">
               <li>Aluguer de Automóveis</li>
             </a>
-            <a href="/servicos/aluguer">
-              <li>Aluguer de clássicos para eventos e casamentos</li>
-            </a>
             <a href="/servicos/taxi">
               <li>Serviço de Taxi normal e 9 lugares</li>
             </a>

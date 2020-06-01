@@ -91,6 +91,13 @@ function Servicos({ ...props }) {
       description2:
         'Temos a melhor relação qualidade preço. Venda em Macedo de Cavaleiros e todo o distrito de Bragança.',
     },
+    {
+      name: 'aluguer',
+      title: 'Aluguer de Automóveis',
+      description: 'Na MCruz Fernandes, temos vários automóveis para aluguer.',
+      description2:
+        'Temos a melhor relação qualidade preço. Desde aluguer de clássicos para casamentos até ao aluguer de automóveis para o seu dia a dia. Contacte-nos em Macedo de Cavaleiros',
+    },
   ];
 
   const i = search(slug, servicos);
