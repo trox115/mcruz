@@ -13,7 +13,7 @@ function ServIndex() {
     <Margin>
       <Container>
         <Row>
-          <Col md="12"></Col>
+          <Col md="12" />
         </Row>
       </Container>
     </Margin>
