@@ -8,6 +8,7 @@ import Sobre from './components/SobrePage/Sobre';
 import Servicos from './components/ServicosPage/Servicos';
 import Galeria from './components/GaleriaPage/Galeria';
 import Contacto from './components/ContactoPage/Contacto';
+import ultimateCell from './components/UltimateCell/UltimateCell';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
             <Route exact path="/servicos/venda" component={Contacto} />
             <Route exact path="/servicos/aluguer" component={Contacto} />
             <Route exact path="/servicos/taxi" component={Contacto} />
+            <Route exact path="/ultimate" component={ultimateCell} />
           </SimpleReactLightbox>
         </Switch>
         <Footer />
