@@ -20,38 +20,132 @@ function Galeria() {
   const [state, setState] = useState({
     filter: 'todos',
     imagens: {
-      1: { nome: '1', categoria: 'teste' },
-      2: { nome: '2', categoria: 'teste2' },
+      1: { nome: '1', categoria: 'pintura' },
+      2: { nome: '2', categoria: 'aluguer' },
+      4: { nome: '4', categoria: 'aluguer' },
+      5: { nome: '5', categoria: 'aluguer' },
+      6: { nome: '6', categoria: 'aluguer' },
+      7: { nome: '7', categoria: 'aluguer' },
+      8: { nome: '8', categoria: 'aixam' },
+      9: { nome: '9', categoria: 'aixam' },
+      10: { nome: '10', categoria: 'aixam' },
+      11: { nome: '11', categoria: 'aluguer' },
+      12: { nome: '12', categoria: 'aluguer' },
+      13: { nome: '13', categoria: 'aixam' },
+      14: { nome: '14', categoria: 'aixam' },
+      15: { nome: '15', categoria: 'aixam' },
+      16: { nome: '16', categoria: 'aixam' },
+      17: { nome: '17', categoria: 'aixam' },
+      18: { nome: '18', categoria: 'aixam' },
+      19: { nome: '19', categoria: 'aixam' },
+      20: { nome: '20', categoria: 'aixam' },
+      21: { nome: '21', categoria: 'aixam' },
+      22: { nome: '22', categoria: 'aixam' },
+      23: { nome: '23', categoria: 'aixam' },
+      24: { nome: '24', categoria: '' },
+      25: { nome: '25', categoria: 'aixam' },
+      26: { nome: '26', categoria: 'aixam' },
+      27: { nome: '27', categoria: 'aixam' },
+      28: { nome: '28', categoria: 'aixam' },
+      29: { nome: '29', categoria: 'aixam' },
+      30: { nome: '30', categoria: 'powercell' },
+      31: { nome: '31', categoria: 'pintura' },
+      32: { nome: '32', categoria: 'mecanica' },
+      33: { nome: '33', categoria: 'reboques' },
+      34: { nome: '34', categoria: 'taxi' },
     },
   });
-  console.log(state);
+
+  function handleClick(event) {
+    event.preventDefault();
+    const filter = { filter: event.target.value };
+    setState({
+      ...state,
+      filter,
+    });
+
+    const items = document.querySelectorAll('.gallery_product');
+    const target = event.target.getAttribute('value');
+
+    for (let i = 0; i < items.length; i += 1) {
+      items[i].style.display = 'none';
+      if (items[i].getAttribute('data-id') === target) {
+        items[i].style.display = 'block';
+      }
+      if (target === 'todos') {
+        items[i].style.display = 'block';
+      }
+    }
+  }
 
   return (
     <Container>
       <Row>
         <Col md="12">
           <Filtros>
-            <button type="button" class="btn btn-outline-dark">
+            <a
+              className="btn btn-outline-dark"
+              value="todos"
+              onClick={handleClick}
+            >
+              Todos
+            </a>
+            <a
+              className="btn btn-outline-dark"
+              value="reboques"
+              onClick={handleClick}
+            >
               Reboques
-            </button>
-            <button type="button" class="btn btn-outline-dark">
+            </a>
+            <a
+              className="btn btn-outline-dark"
+              value="mecanica"
+              onClick={handleClick}
+            >
               Mecanica
-            </button>
-            <button type="button" class="btn btn-outline-dark">
-              Pneus
-            </button>
-            <button type="button" class="btn btn-outline-dark">
+            </a>
+            <a
+              className="btn btn-outline-dark"
+              value="aixam"
+              onClick={handleClick}
+            >
+              Aixam
+            </a>
+            <a
+              className="btn btn-outline-dark"
+              value="chaparia"
+              onClick={handleClick}
+            >
               Chaparia
-            </button>
-            <button type="button" class="btn btn-outline-dark">
+            </a>
+            <a
+              className="btn btn-outline-dark"
+              value="pintura"
+              onClick={handleClick}
+            >
               Pintura
-            </button>
-            <button type="button" class="btn btn-outline-dark">
+            </a>
+            <a
+              className="btn btn-outline-dark"
+              value="taxi"
+              onClick={handleClick}
+            >
               Taxi
-            </button>
-            <button type="button" class="btn btn-outline-dark">
-              Automóveis
-            </button>
+            </a>
+            <a
+              className="btn btn-outline-dark"
+              value="aluguer"
+              onClick={handleClick}
+            >
+              Aluguer
+            </a>
+            <a
+              className="btn btn-outline-dark"
+              value="powercell"
+              onClick={handleClick}
+            >
+              PowerCell
+            </a>
           </Filtros>
           {Object.values(state.imagens).map(value => (
             <PortInicial {...value} />
