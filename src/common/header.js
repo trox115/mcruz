@@ -6,13 +6,13 @@ import logo from './logo.png';
 function NavbarCommon() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-      <Navbar.Brand href="#home">
+      <Navbar.Brand href="/">
         <img src={logo} alt="mcruz fernandes Macedo de Cavaleiros" />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="#features">Sobre Nós</Nav.Link>
+          <Nav.Link href="/sobre">Sobre Nós</Nav.Link>
           <NavDropdown title="Serviços" id="collasible-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">Reboque</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">Mecânica</NavDropdown.Item>
