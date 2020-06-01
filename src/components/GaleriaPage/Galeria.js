@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import PortInicial from './PortInicial';
 import styled from 'styled-components';
 
 const Filtros = styled.div`
@@ -23,6 +24,8 @@ function Galeria() {
       2: { nome: '2', categoria: 'teste2' },
     },
   });
+  console.log(state);
+
   return (
     <Container>
       <Row>
@@ -50,6 +53,9 @@ function Galeria() {
               Automóveis
             </button>
           </Filtros>
+          {Object.values(state.imagens).map(value => (
+            <PortInicial {...value} />
+          ))}
         </Col>
       </Row>
     </Container>
