@@ -14,25 +14,29 @@ function NavbarCommon() {
         <Nav className="mr-auto">
           <Nav.Link href="/sobre">Sobre Nós</Nav.Link>
           <NavDropdown title="Serviços" id="collasible-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">Reboque</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">Mecânica</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Pneus</NavDropdown.Item>
+            <NavDropdown.Item href="servicos/reboque">Reboque</NavDropdown.Item>
+            <NavDropdown.Item href="/servicos/mecanica">
+              Mecânica
+            </NavDropdown.Item>
+            <NavDropdown.Item href="/servicos/pneus">Pneus</NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.4">
+            <NavDropdown.Item href="/servicos/chaparia">
               Chaparia Mestra
             </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.5">Pintura</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.5">
+            <NavDropdown.Item href="/servicos/pintura">
+              Pintura
+            </NavDropdown.Item>
+            <NavDropdown.Item href="/servicos/venda">
               Venda/Aluguer de automóveis
             </NavDropdown.Item>
             <NavDropdown.Item href="#action/3.5">
               Instalação de PowerCell
             </NavDropdown.Item>
           </NavDropdown>
-          <Nav.Link href="#pricing">Galeria</Nav.Link>
+          <Nav.Link href="/galeria">Galeria</Nav.Link>
         </Nav>
         <Nav>
-          <Nav.Link href="#deets">Contactos</Nav.Link>
+          <Nav.Link href="/contacto">Contactos</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
