@@ -9,10 +9,12 @@ import PortInicial from './PortInicial';
 const Filtros = styled.div`
   margin-top: 30px;
   margin-bottom: 30px;
-
+  max-width: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   button {
+    margin-top: 5px;
     margin-right: 10px;
   }
 `;
