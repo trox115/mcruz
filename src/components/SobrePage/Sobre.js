@@ -61,7 +61,7 @@ function Sobre() {
         <Col md="12">
           <h2>Serviços Mcruz Fernandes </h2>
           <ul>
-            <a href="/servicos/reboques">
+            <a href="/servicos/reboque">
               <li> Reboques</li>
             </a>
             <a href="/servicos/mecanica">
