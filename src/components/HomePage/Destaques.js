@@ -30,7 +30,7 @@ function Destaques() {
   return (
     <>
       <Titulo>
-        <h2 className="margin-100"> Áreas de Negócio</h2>
+        <h2 className="margin-100">Serviços</h2>
       </Titulo>
       <Container>
         <Row>

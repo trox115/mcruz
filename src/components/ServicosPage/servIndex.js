@@ -1,13 +1,23 @@
 import React from 'react';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import styled from 'styled-components';
 
-function ServIndex({...props}){
+const Margin = styled.div`
+  margin: 30px 0 30px 0;
+`;
 
-  return(
-   <div>
-    <h1>I'm the PLACEHOLDER component</h1>
-   </div>
+function ServIndex({ ...props }) {
+  return (
+    <Margin>
+      <Container>
+        <Row>
+          <Col md="12"></Col>
+        </Row>
+      </Container>
+    </Margin>
   );
- }
 }
 
 export default ServIndex;
