@@ -111,8 +111,7 @@ function Servicos({ ...props }) {
             <p>{servicos[i].description2}</p>
           </Text>
           <a href="/contacto" className="btn btn-primary">
-            {' '}
-            Contacte-nos{' '}
+            Contacte-nos
           </a>
         </Col>
         <Col md="5">
