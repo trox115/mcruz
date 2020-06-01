@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import PortInicial from './PortInicial';
+import { SRLWrapper } from 'simple-react-lightbox';
 import styled from 'styled-components';
 
 const Filtros = styled.div`
@@ -147,9 +148,11 @@ function Galeria() {
               PowerCell
             </a>
           </Filtros>
-          {Object.values(state.imagens).map(value => (
-            <PortInicial {...value} />
-          ))}
+          <SRLWrapper>
+            {Object.values(state.imagens).map(value => (
+              <PortInicial {...value} />
+            ))}
+          </SRLWrapper>
         </Col>
       </Row>
     </Container>
