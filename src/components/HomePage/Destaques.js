@@ -30,7 +30,7 @@ function Destaques() {
   return (
     <>
       <Titulo>
-        <h2 className="margin-100"> Áreas de Negócio</h2>
+        <h2 className="margin-100">Serviços</h2>
       </Titulo>
       <Container>
         <Row>
@@ -38,19 +38,23 @@ function Destaques() {
             <Cartao>
               <div className="card">
                 <img
-                  src="/alinhamento.jpeg"
+                  src="/mecanica.jpg"
                   className="card-img-top"
-                  alt="Reboque em Macedo de Cavaleiros"
+                  alt="Mecânica em Macedo de Cavaleiros"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Calibragem de Pneus</h5>
+                  <h5 className="card-title">Mecânica Geral</h5>
                   <p className="card-text">
-                    Montagem e calibragem de pneus para todo o tipo de veiculos,
-                    alinhe os seus pneus em macedo de cavaleiros.
+                    Todo o tipo de mecânica para que a sua viatura ande sempre
+                    nas melhores condições.Serviços na Área de Macedo de
+                    Cavaleiros.
                   </p>
                 </div>
                 <div className="card-footer">
-                  <a href="#!" className="align-self-center btn btn-primary">
+                  <a
+                    href="/servicos/mecanica"
+                    className="align-self-center btn btn-primary"
+                  >
                     Saber Mais
                   </a>
                 </div>
@@ -73,7 +77,10 @@ function Destaques() {
                   </p>
                 </div>
                 <div className="card-footer">
-                  <a href="#!" className="align-self-center btn btn-primary">
+                  <a
+                    href="/servicos/taxi"
+                    className="align-self-center btn btn-primary"
+                  >
                     Saber Mais
                   </a>
                 </div>
@@ -96,7 +103,10 @@ function Destaques() {
                   </p>
                 </div>
                 <div className="card-footer">
-                  <a href="#!" className="align-self-center btn btn-primary">
+                  <a
+                    href="/servicos/reboque"
+                    className="align-self-center btn btn-primary"
+                  >
                     Saber Mais
                   </a>
                 </div>
@@ -120,7 +130,10 @@ function Destaques() {
                   </p>
                 </div>
                 <div className="card-footer">
-                  <a href="#!" className="align-self-center btn btn-primary">
+                  <a
+                    href="/servicos/pintura"
+                    className="align-self-center btn btn-primary"
+                  >
                     Saber Mais
                   </a>
                 </div>
